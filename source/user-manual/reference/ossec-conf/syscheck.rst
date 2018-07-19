@@ -31,6 +31,7 @@ Options
 - `registry_ignore`_
 - `prefilter_cmd`_
 - `skip_nfs`_
+- `remove_old_diff`_
 
 .. _reference_ossec_syscheck_directories:
 
@@ -316,6 +317,18 @@ Specifies if syscheck should scan network mounted filesystems (Works on Linux an
 
 +--------------------+---------+
 | **Default value**  | no      |
++--------------------+---------+
+| **Allowed values** | yes, no |
++--------------------+---------+
+
+
+remove_old_diff
+^^^^^^^^
+
+Especifies if syscheck should delete the local snapshots that are not currently being monitorized.
+
++--------------------+---------+
+| **Default value**  | yes     |
 +--------------------+---------+
 | **Allowed values** | yes, no |
 +--------------------+---------+
