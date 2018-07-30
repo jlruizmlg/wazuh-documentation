@@ -28,6 +28,10 @@ The wazuh-modulesd program manages the Wazuh modules described below.
 
   The CIS-CAT wodle allows you to run CIS policy scans visualizing the results of assessments in the Wazuh App. See the :doc:`CIS-CAT integration <../../capabilities/policy-monitoring/ciscat/ciscat>` for more information on this functionality.
 
+.. topic:: Osquery wodle
+
+  The osquery wodle provides the user an operating system instrumentation tool that make low-level operating system analytics and monitoring both performant and intuitive using SQL-based queries. For more information, read through the documentation for :doc:`osquery integration <../../capabilities/osquery>`.
+
 wazuh-modulesd options
 ----------------------
 
